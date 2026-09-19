@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1789828950209,
+  "index": "/bingoplay/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bingoplay/favicon.ico",
+        "/bingoplay/index.html",
+        "/bingoplay/main-RS7OXTEB.js",
+        "/bingoplay/manifest.webmanifest",
+        "/bingoplay/styles-O55JYKGS.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bingoplay/icons/icon.svg",
+        "/bingoplay/media/primeicons-4GST5W3O.woff2",
+        "/bingoplay/media/primeicons-DHQU4SEP.svg",
+        "/bingoplay/media/primeicons-GEFHGEHP.ttf",
+        "/bingoplay/media/primeicons-P53SE5CV.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "patterns": [],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/bingoplay/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/bingoplay/icons/icon.svg": "1e8fd80b3bcea8bfe8fa90ccd8a492d718b871cf",
+    "/bingoplay/index.html": "c5caa487000fdbef8d4d77c9f718fea79e7a5032",
+    "/bingoplay/main-RS7OXTEB.js": "1c63300a1786367cedfbe304357b3cca26bb0f63",
+    "/bingoplay/manifest.webmanifest": "51e5c96ebc778407eb49c5946bed6ec193d8505a",
+    "/bingoplay/media/primeicons-4GST5W3O.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
+    "/bingoplay/media/primeicons-DHQU4SEP.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
+    "/bingoplay/media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
+    "/bingoplay/media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
+    "/bingoplay/styles-O55JYKGS.css": "1cb6a71ba2bb4db3ef78894797526d19e871b298"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/__$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/__\\/[^/]*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
